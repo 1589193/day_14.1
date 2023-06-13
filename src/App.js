@@ -1,7 +1,9 @@
 function App() {
-    return (
-        <><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta blanditiis odio facere a obcaecati aperiam officia ea, unde ipsam, aliquam voluptate quibusdam cum totam voluptates earum perferendis quisquam quasi laborum. </h1>
-        </>
-    );
+  // jsx single liner :: with optional parenthesi
+    let jsx1 = <h1>hii bro</h1>;
+    let jsx2 = <h2>dear all</h2>;
+
+    return false ? jsx1 : jsx2;
 }
+
 export default App;
