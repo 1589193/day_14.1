@@ -1,4 +1,7 @@
-function App(){
-return <><h1>tiwari</h1></> 
+function App() {
+    return (
+        <><h1>hlo world</h1>
+        </>
+    );
 }
 export default App;
