@@ -1,17 +1,15 @@
 function App() { 
-    let str = "Hii Ayushi";
-    let pi = 3.14;
-    let active = true;
+    let user = { id: 1, name: "sanjay" };
     return (
-        <><h1>
-            {str}
-        </h1>
+        <>
             <h1>
-                pi={pi}
+                {user.id}
             </h1>
-            {active ? <h1>{str}</h1> : <h2>{pi}</h2>}
+            <h2>
+                {user.name}
+            </h2>
         </>
-    )
+    );
     
 }
 export default App;
