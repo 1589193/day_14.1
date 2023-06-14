@@ -1,9 +1,17 @@
-function App() {
-  // jsx single liner :: with optional parenthesi
-    let jsx1 = <h1>hii bro</h1>;
-    let jsx2 = <h2>dear all</h2>;
-
-    return false ? jsx1 : jsx2;
+function App() { 
+    let str = "Hii Ayushi";
+    let pi = 3.14;
+    let active = true;
+    return (
+        <><h1>
+            {str}
+        </h1>
+            <h1>
+                pi={pi}
+            </h1>
+            {active ? <h1>{str}</h1> : <h2>{pi}</h2>}
+        </>
+    )
+    
 }
-
 export default App;
